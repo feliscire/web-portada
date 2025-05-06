@@ -1,0 +1,52 @@
+/* inportar funetes de 
+https://fonts.google.com/
+https://www.dafont.com/
+*/
+/* Usando un link completo  */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 45px;
+    
+    /* COLORES */
+
+    color: mediumpurple;
+    /* color: transparent; */
+    color: #000000; /* Negro */
+    /* Colores RGB - mezcla de tres colores. https://www.css3maker.com/css-3-rgba.html ej: background-color: rgba(166, 96,97,0,6); */
+    color: rgba(rgba(0, 255, 242, 0.507), green, blue, alpha)
+}
+
+/*   */
+
+@font-face{
+    font-family: indie_flower;
+    src: url(../font/indie_flower/IndieFlower-Regular.ttf)
+}
+
+@font-face{
+    font-family: conthrax;
+    src: url(../font/conthrax/Conthrax-SemiBold.otf)
+}
+
+.scirefont30{
+    font-family: conthrax,Comic Sans MS;
+    font-size: 48px;
+    font-weight: lighter;
+    color: white;
+}
+.scirefont18{
+    font-family: conthrax,Comic Sans MS;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+}
+pp{
+    font-family: indie_flower, Times New Roman;
+    font-size: 18px;
+    font-weight: bold;
+}
